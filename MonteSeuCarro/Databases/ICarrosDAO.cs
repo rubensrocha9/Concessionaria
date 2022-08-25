@@ -9,6 +9,6 @@ namespace MonteSeuCarro.Databases
         void Adicionar(Carro carro);
         void Atualizar(Carro carro);
         void Remover(Carro carro);
-        IList<Carro> IListCarros();
+        IQueryable<Carro> IListCarros();
     }
 }

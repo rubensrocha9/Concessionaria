@@ -39,9 +39,9 @@ namespace MonteSeuCarro.Databases
             contexto.SaveChanges();
         }
 
-        public IList<Carro> IListCarros()
+        public IQueryable<Carro> IListCarros()
         {
-            return contexto.Carros.Include(p => p.Adicionais).ToList();
+            return contexto.Carros.Include(p => p.Adicionais);
         }
     }
 }
