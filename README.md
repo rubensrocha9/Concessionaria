@@ -5,8 +5,7 @@ OBS 1 :
  - Vericificar Connection String ( pois esta sendo usado o local host, então pode mudar a conexão )
 
 OBS 2 : 
- - Add-Migration nome_que_desejar -> para poder gerar a Tabela do SQL 
- serão geradas duas tabelas uma chamda Carro e a outra Opcionais ( foi usado o método um para muitos)
+ - Update-Database -> para poder gerar a Tabela do SQL e serão geradas duas tabelas uma chamda Carro e a outra Opcionais ( foi usado o método um para muitos)
 
 
 Projeto Desenvolvido como aprendizado 
