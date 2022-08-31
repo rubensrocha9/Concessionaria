@@ -1,5 +1,14 @@
 # MonteSeuCarro
 
+OBS 1 : 
+ - Foi usado SQL Server
+ - Vericificar Connection String ( pois esta sendo usado o local host, então pode mudar a conexão )
+
+OBS 2 : 
+ - Add-Migration nome_que_desejar -> para poder gerar a Tabela do SQL 
+ serão geradas duas tabelas uma chamda Carro e a outra Opcionais ( foi usado o método um para muitos)
+
+
 Projeto Desenvolvido como aprendizado 
 utilizando CSharp e SQL Server 
 
@@ -17,9 +26,6 @@ Na opção de Adicional veiculo contém as seguintes opções:
  - Cor
  - Quantidade de Portas
  - Opcionais do Veiculo (Porém você escolhe quantos opcionais deseja colocar)
-
-OBS: Add-Migration nome_que_desejar -> para poder gerar a Tabela do SQL 
-serão geradas duas tabelas uma chamda Carro e a outra Opcionais (pois foi usado o método um para muitos)
 
 Menu Principal
 
